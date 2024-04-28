@@ -36,6 +36,8 @@ The repository is composed by the following folders:
 ⚪️ **Test**: contains a report about the testing
 
 ## 🏛️ Design
+#### MVC
+
 I chose to apply the MVC (Model View Controller) pattern using beans, controllers, DAO and views.
 
 **Beans** match the model, they are Java classes with an empty constructor (i.e. without arguments). Their properties must be accessible trough get and set methods and shouldn't contain any method for the events handling.
@@ -46,7 +48,7 @@ I chose to apply the MVC (Model View Controller) pattern using beans, controller
 
 **Views** present the interface. They are HTML and JSP pages. In the JSPs, in addition to Javascript and Java, the framework JSTL was used.
 
-#### 🛠️ Utils:
+#### Utils
 
 In addition to the classes mentioned above, I created a package called **Utils** that contains two classes (MyBookUtils and SendMail) that have inside some static methods useful fot the program. 
 
